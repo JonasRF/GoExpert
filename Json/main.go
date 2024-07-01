@@ -6,8 +6,8 @@ import (
 )
 
 type Conta struct {
-	Numero int
-	Saldo  int
+	Numero int `json:"n"`
+	Saldo  int `json:"s"`
 }
 
 func main() {
